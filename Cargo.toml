@@ -2,7 +2,7 @@
 name = "cidrs"
 description = "CIDR Library"
 version = "0.2.0"
-authors = ["zarvd <jialun.cai@pm.me>"]
+authors = ["Jialun Cai <jialun.cai@pm.me>"]
 keywords = ["Network", "IP", "CIDR"]
 homepage = "https://github.com/clnv/cidrs"
 repository = "https://github.com/clnv/cidrs"
