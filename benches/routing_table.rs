@@ -2,7 +2,7 @@ use std::hint::black_box;
 use std::net::{IpAddr, Ipv4Addr};
 
 use cidrs::{Cidr, CidrRoutingTable, Ipv4Cidr};
-use criterion::{criterion_group, criterion_main, Criterion};
+use criterion::{Criterion, criterion_group, criterion_main};
 
 fn fixture() -> CidrRoutingTable<u64> {
     let mut m = CidrRoutingTable::new();

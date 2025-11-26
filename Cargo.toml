@@ -4,11 +4,11 @@ description = "CIDR Library"
 version = "0.2.0"
 authors = ["zarvd <jialun.cai@pm.me>"]
 keywords = ["Network", "IP", "CIDR"]
-homepage = "https://github.com/zarvd/cidrs"
-repository = "https://github.com/zarvd/cidrs"
+homepage = "https://github.com/clnv/cidrs"
+repository = "https://github.com/clnv/cidrs"
 documentation = "https://docs.rs/cidrs"
 license = "MIT"
-edition = "2021"
+edition = "2024"
 
 [features]
 default = []

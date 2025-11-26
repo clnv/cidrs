@@ -1,4 +1,4 @@
-use cidrs::{aggregate_ipv4, Ipv4Cidr};
+use cidrs::{Ipv4Cidr, aggregate_ipv4};
 
 #[test]
 fn ipv4_basic() {

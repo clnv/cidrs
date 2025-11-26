@@ -44,10 +44,9 @@ where
                 break;
             };
         }
-        if !is_end {
-            if let Some(v) = unsafe { node.as_ref() }.get_longest_match_value(Nibble::nil()) {
-                rv.push(v);
-            }
+        if !is_end && let Some(v) = unsafe { node.as_ref() }.get_longest_match_value(Nibble::nil())
+        {
+            rv.push(v);
         }
 
         rv.into_iter().map(|(k, v)| (*k, v)).collect()

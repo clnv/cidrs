@@ -80,7 +80,7 @@ impl<const N: usize> Iterator for Nibbles<N> {
         let byte = {
             let i = (self.cursor / 8) as usize;
             let b = self.bytes[i];
-            let b = if self.cursor % 8 == 0 {
+            let b = if self.cursor.is_multiple_of(8) {
                 b >> 4
             } else {
                 b & 0x0f
