@@ -1,8 +1,8 @@
 [package]
 name = "xtask"
 version = "0.1.0"
-authors = ["zarvd <jialun.cai@pm.me>"]
-edition = "2021"
+authors = ["Jialun Cai <jialun.cai@pm.me>"]
+edition = "2024"
 
 [dependencies]
 anyhow = "1"

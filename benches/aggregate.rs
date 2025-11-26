@@ -1,5 +1,5 @@
 use cidrs::Ipv4Cidr;
-use criterion::{black_box, criterion_group, criterion_main, Criterion};
+use criterion::{Criterion, black_box, criterion_group, criterion_main};
 
 fn ipv4_fixture() -> Vec<Ipv4Cidr> {
     (0..255)
